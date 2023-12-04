@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/81c24ceb63.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#work">My Work </a></li>
+                        <li><a href="#connect">Connect with me </a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                </nav>
+                <div class="name">
+                    <div class="header-text">
+                        <p>CSE Student | Upcoming SDE</p>
+                        <h1>Hi, I'm <span>Drashya </span>Jain.<br> from Gwalior, Madhya Pradesh. </h1>
+                    </div>
+                    <div class="header-image">
+                        <img src="images/pic1.jpg " height="500px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------------------about---------------------------------------------------------------------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/pic.jpg">
+                    </div> 
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Final Year undergraduate at Vellore Institute of Technology, Bhopal pursuing B.Tech in Computer Science and Engineering. I’m on the lookout for an opportunity that will
+                            let me merge together my passion for problem solving and programming and kickstart a career in software & IT industries . I enjoy working with different people and coming up with solutions to difficult
+                            problems.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('languages & technologies')">Languages & technologies</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="languages & technologies">
+                            <ul>
+                                <li><span>Programming Languages</span><br> C++ (advance) | Python (medium) | Java (basic) | html(advance) | css(advance) | javascript(advance) | reactjs(basic) </li>
+                                <li><span>Operating System</span><br>Windows</li>
+                                <li><span>Database Systems</span><br> MySQL | Mongodb </li>
+                                <li><span>Frameworks & Tools</span><br> VS code</li>
+                                <li><span>Others</span><br>Github</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span> Vellore Institute of Technology, Bhopal</span><br> B.Tech in Computer Science and Engineering | Sept 2020 - June 2024 <br> CGPA : 9.07 </li>
+                                <li><span> Sanskar Public School, Gwalior </span><br> Higher Secondary Education | April 2019 - March 2020 <br> Percentage: 85.8% </li>
+                                <li><span> Carmel Convent Sr. Sec. School, Gwalior </span><br> Secondary School Education | April 2017 - March 2018 <br> Percentage : 88% </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------------------------------------------------work--------------------------------------------------------------------- -->
+        <div id="work">
+            <div class="container">
+                <h1 class="sub-titles">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/img1.png"> 
+                        <div class="layer">
+                            <h3>Act Mindful</h3>
+                            <p>It is a mental healthcare website. The project’s main aim is to make it easier for people to access mental health services.</p>
+                            <a href="https://github.com/Drashya09/Act-Mindful"><i class="fas fa-external-link-alt"></i></a>
+                        </div> 
+                    </div>
+                    <div class="work">
+                        <img src="images/img2.png"> 
+                        <div class="layer">
+                            <h3>Face Recognition System for Criminal Detection</h3>
+                            <p>It is a web application based on face identification technology. This application aims to track the habitual criminals who are registered with the system.</p>
+                            <a href="https://github.com/Drashya09/Face-Recognition-System-for-Criminal-Detection"><i class="fas fa-external-link-alt"></i></a>
+                        </div> 
+                    </div>
+                    <div class="work">
+                        <img src="images/img3.png">
+                        <div class="layer">
+                            <h3>Snapify</h3>
+                            <p>It is a full stack real-time chat application with features like sending text messages, sending emoji messages, etc.</p>
+                            <a href="https://github.com/Drashya09/Snapify"><i class="fas fa-external-link-alt"></i></a>
+                        </div>  
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- -----------------------------------------------------connect--------------------------------------------------------------------- -->
+    <div id="connect">
+        <div class="container">
+            <h1 class="sub-title">Connect with me</h1>
+            <div class="connect-list">
+                <div class="work">
+                    <img src="images/img4.png">
+                    <div class="layer">
+                        <h3>LinkedIn</h3>
+                        <p>I am a CSE student and currently seeking new opportunities. I would love to connect myself with other professionals in my field.</p>
+                        <a href="https://www.linkedin.com/in/drashyajain09" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/img5.png">
+                    <div class="layer">
+                        <h3>Resume</h3>
+                        <p>I would love to talk about my technical skills that might fit any of your openings.</p>
+                        <a href="https://drive.google.com/file/d/1psUTZu6IqRgN3UbMorm_Mo2NzCt_Qd5s/view?usp=drivesdk" download target="_blank"><i class="fa-solid fa-file"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/img6.png">
+                    <div class="layer">
+                        <h3>Github</h3>
+                        <p>Hey, Have a look on my project works on github and if you really like any project of mine ,then don't forget to follow me for further updates related to my work </p>
+                        <a href="https://github.com/Drashya09" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- -----------------------------------------------------contact--------------------------------------------------------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>drashyajain800@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 9425757985</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/drashyajain" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/drashya_09" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/Drashyaj_09" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        </div>
+                    </div>
+    
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©Drashya. Made By <i class="fa-solid fa-chess-king"></i> Drashya Jain</p>
+            </div>
+        </div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+        
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+    
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+    
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        
+
+    </body>
+</html>
